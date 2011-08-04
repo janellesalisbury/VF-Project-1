@@ -32,28 +32,30 @@
                 <h2>Item Information:</h2>
                 
                 <!-- labels/inputs-->
+                <dl>
+                <dt><label for = "name">Name</label> 
+                <dt><input type = "text" id = "name" name = "name"/>
                 
-                <label for = "name">Name</label></br> <input type = "text" id = "name" name = "name"/>
+                <dt><label for = "date">Date</label> 
+                <dt><input type = "number" id = "quantity" name = "quantity"/>
                 
+                <dt><label for = "quantity">Quantity</label> 
+                <dt><input type = "range" min = "1" max = "10" name = "quantity" type = "range"/>
                 
-                <label for = "date">Date</label></br> <input type = "number" id = "quantity" name = "quantity"/>
+                <dt><label for = "purchased">Purchased:</label> 
+                <dt><input type = checkbox name = "purchased" type = "checkbox"/>
                 
-                
-                <label for = "quantity">Quantity</label></br> <input type = "range" min = "1" max = "10" name = "quantity" type = "range"/>
-                
-                
-                <label for = "purchased">Purchased:</label></br> <input type = checkbox name = "purchased" type = "checkbox"/>
-                
-                
-                <label for = "notes">Notes:</label></br> <textarea rows = "20" cols = "40"/>
-                
-                
-                <!-- submit button-->
-                <input type = "submit" value = "submit"/>
-                
-                
-         </fieldset>
-       </form>
+                <dt><label for = "notes">Notes:</label> 
+                <dt><textarea name = "notes">put notes here</textarea>
+
+                <!-- submit button--> 
+                <dt><input type = "submit" value = "submit"/> 
+                </dl> 
+                               
+        </fieldset>
+        
+               
+     </form>
     </body>
 </html>
        
