@@ -11,7 +11,7 @@
       <title> Car Parts I need</title>
       <meta name = "Janelle Salisbury" content = "Parts">
       
-      <link rel = "stylesheet" href "css/style.css?v=1.0">
+      <link rel = "stylesheet" type = "text/css" href = "styles.css" />
     </head>
     
     <body>
@@ -49,12 +49,12 @@
                 <dt><textarea name = "notes">put notes here</textarea>
 
                 <!-- submit button--> 
-                <dt><input type = "submit" value = "submit"/> 
+                <dt><input type = "submit" value = "submit" onSubmit = "storeItems()"; /> 
                 </dl> 
                                
         </fieldset>
-        
-               
+        <script src = "main.js"</script>
+        <script> getItems(); </script>      
      </form>
     </body>
 </html>
